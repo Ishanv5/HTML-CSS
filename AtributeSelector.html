@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Atribute Selector</title>
+    <style>
+        input[type="text"]
+        {
+            color: red;
+            background-color: aqua;
+        }
+        input[type="password"]
+        {
+            color: blue;
+            background-color: cadetblue;
+        }
+        a[href*="google"]
+        {
+            color: red;
+        }
+        a[href^="https"]
+        {
+            color:green;
+        }
+        a[href$=".com"]
+        {
+            color:chocolate;
+        }
+        a[href^="t"]
+        {
+            color:chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h2>Links</h2>
+    <a href="https://google.co.in">Google India </a><br>
+    <a href="https://google.co.uk">Google UK</a><br>
+    <a href="https://flipkart.com">Flipkart </a><br>
+    <a href="facebook.com">Facebook</a><br>
+    <h2>Form</h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname"><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass"><br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
