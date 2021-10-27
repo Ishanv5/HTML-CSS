@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Sizing</title>
+    <style>
+       hr{
+           width: 500px;
+           margin: 0;
+           border: 0.5px dashed black;
+       } 
+       .box2{
+           box-sizing: border-box;
+        width: 500px;
+           background: lightcoral;  
+           border: 10px solid red;
+           padding: 50px;
+           margin-bottom:10px ;
+       }
+       .box1{
+           box-sizing: content-box;
+           width: 500px;
+           background: lightcoral;
+           border: 10px solid red;
+           padding: 50px;
+       }
+       
+    </style>
+</head>
+<body>
+    <hr>
+ <br>
+    <div class="box2">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam alias itaque voluptates minima quaerat nulla voluptas, fuga, eum minus dolorum omnis expedita unde consequuntur eos, amet saepe suscipit molestiae corporis veritatis labore? Possimus nobis aperiam praesentium maxime facilis suscipit accusantium excepturi neque eum consequatur! Tempore unde esse sequi alias incidunt voluptate architecto eveniet quis quas harum voluptas obcaecati, dolorum repudiandae reprehenderit, ad iste adipisci doloremque asperiores sint debitis possimus fugiat? Et incidunt inventore eos, cumque est dolorum accusamus repellat error quibusdam assumenda quidem eum saepe. In rem harum cumque dolorem sunt accusamus culpa, et suscipit quidem quod impedit atque.</p>
+    </div>
+    <div class="box1">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam alias itaque voluptates minima quaerat nulla voluptas, fuga, eum minus dolorum omnis expedita unde consequuntur eos, amet saepe suscipit molestiae corporis veritatis labore? Possimus nobis aperiam praesentium maxime facilis suscipit accusantium excepturi neque eum consequatur! Tempore unde esse sequi alias incidunt voluptate architecto eveniet quis quas harum voluptas obcaecati, dolorum repudiandae reprehenderit, ad iste adipisci doloremque asperiores sint debitis possimus fugiat? Et incidunt inventore eos, cumque est dolorum accusamus repellat error quibusdam assumenda quidem eum saepe. In rem harum cumque dolorem sunt accusamus culpa, et suscipit quidem quod impedit atque.</p>
+    </div>
+</body>
+</html>
