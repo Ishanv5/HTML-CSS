@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>FlexBox </title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .box-wrapper{
+        border: 10px solid #222;
+        display: flex;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        /* height: 400px;
+        align-items: center;
+        justify-content: space-between; */
+
+        /* flex-flow: column wrap; */
+        /* flex-direction: column;
+        align-items: flex-start;
+        height: 400px;
+        flex-wrap: wrap;
+        align-content: space-between; */
+       /* height: 700px;
+        flex-wrap: wrap;
+        align-items: flex-start; */
+        /* align-content: center;
+        align-content: flex-start;
+        align-content: flex-end;
+        align-content: space-between; */
+        /* align-content: space-around; */
+        /* align-items: stretch;
+        align-items: flex-start;
+        align-items: flex-end;
+        align-items: center; */
+        /* justify-content: flex-start;
+        justify-content: flex-end;
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-around; */
+
+        /* flex-direction: row;
+        flex-direction: row-reverse;
+        flex-direction: column;
+        flex-direction: column-reverse; */
+        /* flex-wrap: wrap;
+        flex-wrap: wrap-reverse; */
+    }
+    .box{
+        border: 1px solid #666;
+        flex: 1 1 400px;
+        
+    /* flex-basis: 400px; */
+    /* width: 300px; */
+    /* flex-grow: 1; */
+    }
+    .box1{
+        background: lightblue;
+        /* order: 0; */
+        /* flex-grow: 1; */
+        /* flex: 1 2 400px; */
+    }
+    .box2{
+        background: lightgoldenrodyellow;
+        /* order: 1; */
+        /* align-self: flex-end; */
+        /* flex-grow: 2; */
+    }
+    .box3{
+        background: lightcyan;
+        /* order: 0; */
+        /* flex-grow: 3; */
+    }
+    .box4{
+        background: lightblue;
+    }
+    .box5{
+        background: lightgreen;
+    }
+    </style>
+</head>
+<body>
+    <div class="box-wrapper">
+       <div class="box box1">
+           <h1>box 1</h1>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit sunt adipisci aspernatur saepe harum dolor molestias repudiandae rem? Nemo iste debitis porro sapiente minus at. Delectus eius ab dolorum sequi!</p>
+       </div>
+       <div class="box box2">
+           <h1>box 2</h1>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur iure iusto debitis harum incidunt magnam earum eius odio iste! Maiores, quod molestias similique culpa quam quaerat odio accusamus? Magnam, sint?</p>
+       </div>
+       <div class="box box3">
+           <h1>box 3</h1>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur iure iusto debitis harum incidunt magnam earum eius odio iste! Maiores, quod molestias similique culpa quam quaerat odio accusamus? Magnam, sint?</p>
+       </div>
+       <div class="box box4">
+           <h1>box 4</h1>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur iure iusto debitis harum incidunt magnam earum eius odio iste! Maiores, quod molestias similique culpa quam quaerat odio accusamus? Magnam, sint?</p>
+       </div>
+       <div class="box box5">
+           <h1>box 5</h1>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur iure iusto debitis harum incidunt magnam earum eius odio iste! Maiores, quod molestias similique culpa quam quaerat odio accusamus? Magnam, sint?</p>
+       </div>
+
+
+    </div>
+</body>
+</html>
